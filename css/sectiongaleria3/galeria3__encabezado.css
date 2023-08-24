@@ -1,0 +1,19 @@
+.galeria3__encabezado {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.galeria3__encabezado-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.galeria3__encabezado-enlace {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  
+}

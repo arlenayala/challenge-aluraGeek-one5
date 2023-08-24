@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/destacados/destacados.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/sectionaddProduct/addProduct.css">
+    <link rel="stylesheet" href="css/sectionaddProduct/producto__formulario.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__logo.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__enlaces.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__formulario.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    
+
+    <title>Alura-Geek || Editar Producto</title>
+</head>
+<body>
+    <header class="header container">
+        <nav class="navegacion">
+            <div class="navegacion__logo">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="logo-alurageek">
+
+                </a>
+            </div>
+
+            <div class="navegacion__busqueda">
+                <input type="text" class="navegacion__busqueda-input" placeholder="¿Que deseas buscar?">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass fa-beat" id="icon"></i>
+
+                </a>    
+            </div>
+
+            <div class="navegacion__login">
+                <a href="productos.html" class="navegacion__login-enlace" target="_blank">
+                    <button type="submit" class="navegacion__login-button">Menu Administrador</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="addProduct container">
+
+            <div>
+                <form action="" class="producto__formuario" data-form-editar>
+                    <fieldset >
+                        <legend class="producto__formulario-titulo">Editar producto</legend>
+                        <div class="producto__formulario-inputs">
+                            <input type="text" class="producto__formulario-input" required data-url maxlength="40" placeholder="URL de imagen">
+                            
+                           
+                        </div>
+                      
+                        <div class="producto__formulario-inputs">
+                            <input type="text" class="producto__formulario-input" required data-nombre  placeholder="Nombre del producto" maxlength="20">
+                           
+    
+                        </div>
+                        <div class="producto__formulario-inputs">
+                            <input type="number" class="producto__formulario-input" required data-precio placeholder="Precio del producto">
+                            
+    
+                        </div>
+
+                        <button type="submit"  class="producto__formulario-boton">Producto Actualizado</button>
+
+                    </fieldset>
+                    
+                </form>
+
+            </div>
+
+        </section>
+        
+
+        <section class="contacto container">
+
+            <div class="contacto__logo">
+                <img src="img/Logo.png" alt="logo-alurageek" class="contacto__imagen">
+            </div>
+
+            <div class="contacto__enlaces">
+                <a href="#" class="contacto__enlaces-link">Quienes Somos</a>
+                <a href="#" class="contacto__enlaces-link">Politica de Privacidad</a>
+                <a href="#" class="contacto__enlaces-link">Programa de Fidelidad</a>
+                <a href="#" class="contacto__enlaces-link">Nuestras Tiendas</a>
+                <a href="#" class="contacto__enlaces-link">Quiero ser Franquiciado</a>
+                <a href="#" class="contacto__enlaces-link">Anúncie Aqui</a>
+            </div>
+
+            <div>
+                <form action="" class="contacto__formulario">
+                    <fieldset>
+                        <legend class="contacto__formulario-titulo">Hable con Nosotros</legend>
+                        <div class="contacto__formulario-inputs">
+                            <input type="text" class="contacto__formulario-input--nombre input__invalid" required data-tipo="nombre" maxlength="40" placeholder="Nombre">
+                            <span class="contacto__error">Este campo es requerido</span>
+                        </div>
+                        <div class="contacto__formulario-inputs">
+                            <input type="text" class="contacto__formulario-input--mensaje input__invalid" required data-tipo="mensaje" maxlength="120" placeholder="Escribe tu Mensaje">
+                            <span class="contacto__error">Este campo es requerido</span>
+                        </div>
+                        <button type="submit" class="contacto__formulario-boton">Enviar Mensaje</button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodapie container">
+
+       <p class="rodapie__desarrollado">Desarrollado por Arlen Ayala Acuña</p>
+       <p class="rodapie__anho">Año 2023</p>
+    
+        
+
+    </footer>
+
+<script type="module" src="javaScript/servicios/productos-servicios.js"></script>
+<script type="module" src="javaScript/controllers/editarProductos.js"></script>
+<script type="module" src="javaScript/validarCotacto.js"></script>
+
+</body>
+</html>

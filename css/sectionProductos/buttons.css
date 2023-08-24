@@ -1,0 +1,40 @@
+.galeria1__productos-button {
+    
+    background:var(--boton-rojo);
+    font-size: 1rem;
+    Width:150px;
+    Height:50px;
+    color: #ffffff;
+    border: none;
+    transition: transform 0.3s;
+    margin-bottom: 1rem;
+    width: 95%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+}
+
+.galeria1__productos-button:hover {
+    transform: scale(1.1);
+}
+
+.galeria1__productos-button2 {
+    background:var(--boton-rojo);
+    font-size: 1rem;
+    Width:150px;
+    Height:50px;
+    color: #ffffff;
+    border: none;
+    transition: transform 0.3s;
+    margin-bottom: 1rem;
+    width: 95%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+}
+
+.galeria1__productos-button2:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/destacados/destacados.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/sectiongaleria1/galeria1_encabezado.css">
+    <link rel="stylesheet" href="css/sectiongaleria1/galeria1__productos.css">
+    <link rel="stylesheet" href="css/sectiongaleria2/galeria2__encabezado.css">
+    <link rel="stylesheet" href="css/sectiongaleria2/galeria2__productos.css">
+    <link rel="stylesheet" href="css/sectiongaleria3/galeria3__encabezado.css">
+    <link rel="stylesheet" href="css/sectiongaleria3/galeria3__productos.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__logo.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__enlaces.css">
+    <link rel="stylesheet" href="css/sectionContacto/contacto__formulario.css">
+    <link rel="stylesheet" href="css/rodapie/rodapie.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    
+
+    <title>Alura-Geek || Arlen Ayala</title>
+</head>
+<body>
+    <header class="header conatiner">
+        <nav class="navegacion">
+            <div class="navegacion__logo">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="logo-alurageek">
+
+                </a>
+                
+            </div>
+
+            <div class="navegacion__busqueda">
+                <input type="text" class="navegacion__busqueda-input" placeholder="¿Que deseas buscar?" id="buscarProducto">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass fa-beat" id="icon" data-icon></i>
+
+                </a>    
+            </div>
+
+            <div class="navegacion__login">
+                <a href="login.html" class="navegacion__login-enlace" target="_blank">
+                    <button type="submit" class="navegacion__login-button">LOGIN</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="destacados container">
+            
+            <h1 class="destacados__titulo">Junio Promocional</h1>
+            <p class="destacados__descripcion">Productos seleccionados con 33% de descuento</p>
+            <button class="destacados__boton" data-consola>Ver Consolas</button>
+           
+        </section>
+        <section class="galeria1 container">
+            <div class="galeria1__encabezado">
+                <h1 class="galeria1__encabezado-titulo">Star Wars</h1>
+                <a href="productos.html" class="galeria1__encabezado-enlace">Ver Todo<i class="fa-solid fa-arrow-up fa-rotate-90" style="color: #1363ec;"></i>
+                </a>
+            </div>
+            <div class="galeria1__productos" >
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto1.png" alt="imagen-producto1" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto A</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto2.png" alt="imagen-producto2" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto B</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto3.png" alt="imagen-producto3" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto C</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto4.png" alt="imagen-producto4" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto D</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto5.png" alt="imagen-producto5" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto E</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria1__productos-lista">
+                    <img src="img/producto6.png" alt="imagen-producto6" class="galeria1__productos-imagen">
+                    <h2 class="galeria1__productos-titulo">Producto F</h2>
+                    <p class="galeria1__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria1__productos-descripcion">Ver Producto</a>
+                </div> 
+            </div>
+        </section>   
+
+        <section class="galeria2 container" data-section-consola >
+            <div class="galeria2__encabezado">
+                <h1 class="galeria2__encabezado-titulo">Consolas</h1>
+                <a href="productos.html" class="galeria2__encabezado-enlace">Ver Todo<i class="fa-solid fa-arrow-up fa-rotate-90" style="color: #1363ec;"></i>
+                </a>
+            </div>
+            <div class="galeria2__productos" >
+                 <div class="galeria2__productos-lista">
+                    <img src="img/consola1.png" alt="imagen-consola1" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto G</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria2__productos-lista">
+                    <img src="img/consola2.png "alt="imagen-consola2" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto H</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria2__productos-lista">
+                    <img src="img/consola3.png" alt="imagen-consola3" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto I</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria2__productos-lista">
+                    <img src="img/consola4.png" alt="imagen-consola4" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto J</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria2__productos-lista">
+                    <img src="img/consola5.png" alt="imagen-consola5" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto K</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria2__productos-lista">
+                    <img src="img/consola6.png" alt="imagen-consola6" class="galeria2__productos-imagen">
+                    <h2 class="galeria2__productos-titulo">Producto L</h2>
+                    <p class="galeria2__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria2__productos-descripcion">Ver Producto</a>
+                </div> 
+            </div>
+        </section>  
+
+        <section class="galeria3 container">
+            <div class="galeria3__encabezado">
+                <h1 class="galeria3__encabezado-titulo">Diversos</h1>
+                <a href="productos.html" class="galeria3__encabezado-enlace">Ver Todo<i class="fa-solid fa-arrow-up fa-rotate-90" style="color: #1363ec;"></i>
+                </a>
+            </div>
+            <div class="galeria3__productos" >
+                 <div class="galeria3__productos-lista">
+                    <img src="img/diversos1.png" alt="imagen-diversos1" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto M</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria3__productos-lista">
+                    <img src="img/diversos2.png "alt="imagen-diversos2" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto N</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria3__productos-lista">
+                    <img src="img/diversos3.png" alt="imagen-diversos3" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto O</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria3__productos-lista">
+                    <img src="img/diversos4.png" alt="imagen-diversos4" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto P</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria3__productos-lista">
+                    <img src="img/diversos5.png" alt="imagen-diversos5" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto Q</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div>
+                <div class="galeria3__productos-lista">
+                    <img src="img/diversos6.png" alt="imagen-diversos6" class="galeria3__productos-imagen">
+                    <h2 class="galeria3__productos-titulo">Producto R</h2>
+                    <p class="galeria3__producto-precio">Precio $ 60.00</p>
+                    <a href="productos.html" class="galeria3__productos-descripcion">Ver Producto</a>
+                </div> 
+            </div>  
+        </section>  
+
+        <section class="contacto container">
+
+            <div class="contacto__logo">
+                <img src="img/Logo.png" alt="logo-alurageek" class="contacto__imagen">
+            </div>
+
+            <div class="contacto__enlaces">
+                <a href="#" class="contacto__enlaces-link">Quienes Somos</a>
+                <a href="#" class="contacto__enlaces-link">Politica de Privacidad</a>
+                <a href="#" class="contacto__enlaces-link">Programa de Fidelidad</a>
+                <a href="#" class="contacto__enlaces-link">Nuestras Tiendas</a>
+                <a href="#" class="contacto__enlaces-link">Quiero ser Franquiciado</a>
+                <a href="#" class="contacto__enlaces-link">Anúncie Aqui</a>
+            </div>
+
+            <div>
+                <form action="" class="contacto__formulario">
+                    <fieldset>
+                        <legend class="contacto__formulario-titulo">Hable con Nosotros</legend>
+                        <div class="contacto__formulario-inputs">
+                            <input type="text" class="contacto__formulario-input--nombre input__invalid" required data-tipo="nombre" maxlength="40" placeholder="Nombre">
+                            <span class="contacto__error">Este campo es requerido</span>
+                        </div>
+                        <div class="contacto__formulario-inputs">
+                            <input type="text" class="contacto__formulario-input--mensaje input__invalid" required data-tipo="mensaje" maxlength="120" placeholder="Escribe tu Mensaje">
+                            <span class="contacto__error">Este campo es requerido</span>
+                        </div>
+                        <button type="submit" value="Enviar formulario" class="contacto__formulario-boton">Enviar Mensaje</button>
+                    </fieldset>
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodapie container">
+
+       <p class="rodapie__desarrollado">Desarrollado por Arlen Ayala Acuña</p>
+       <p class="rodapie__anho">Año 2023</p>
+    
+        
+
+    </footer>
+<script type="module" src="javaScript/consola.js"></script>
+<script type="module" src="javaScript/buscar.js"></script>
+<script type="module" src="javaScript/validarCotacto.js"></script>
+   
+</body>
+</html>

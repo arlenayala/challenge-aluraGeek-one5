@@ -1,0 +1,16 @@
+.addProduct {
+    background-color: var( --background-ceniza-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:375px) {
+   
+  .header {
+    padding: 0 2%;
+  }
+    
+  
+  }

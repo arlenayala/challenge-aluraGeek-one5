@@ -1,0 +1,194 @@
+{
+  "productos": [
+    {
+      "imagen": "img/producto1.png",
+      "nombre": "Producto A",
+      "precio": "precio $60.00",
+      "id": "1"
+    },
+    {
+      "imagen": "img/producto2.png",
+      "nombre": "Producto B",
+      "precio": "56",
+      "id": "2"
+    },
+    {
+      "imagen": "img/producto3.png",
+      "nombre": "Producto C",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "3"
+    },
+    {
+      "imagen": "img/producto4.png",
+      "nombre": "Producto D",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "4"
+    },
+    {
+      "imagen": "img/producto5.png",
+      "nombre": "Producto E",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "5"
+    },
+    {
+      "imagen": "img/producto6.png",
+      "nombre": "Producto F",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "6"
+    },
+    {
+      "imagen": "img/consola1.png",
+      "nombre": "Producto G",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "7"
+    },
+    {
+      "imagen": "img/consola2.png",
+      "nombre": "Producto H",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "8"
+    },
+    {
+      "imagen": "img/consola3.png",
+      "nombre": "Producto I",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "9"
+    },
+    {
+      "imagen": "img/consola4.png",
+      "nombre": "Producto J",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "10"
+    },
+    {
+      "imagen": "img/consola5.png",
+      "nombre": "Producto K",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "11"
+    },
+    {
+      "imagen": "img/consola6.png",
+      "nombre": "Producto L",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "12"
+    },
+    {
+      "imagen": "img/diversos1.png",
+      "nombre": "Producto M",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "13"
+    },
+    {
+      "imagen": "img/diversos2.png",
+      "nombre": "Producto N",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "14"
+    },
+    {
+      "imagen": "img/diversos3.png",
+      "nombre": "Producto O",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "15"
+    },
+    {
+      "imagen": "img/diversos4.png",
+      "nombre": "Producto P",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "16"
+    },
+    {
+      "imagen": "img/diversos5.png",
+      "nombre": "Producto Q",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "17"
+    },
+    {
+      "imagen": "img/diversos6.png",
+      "nombre": "Producto R",
+      "precio": "Precio $ 60.00",
+      "button": "Eliminar",
+      "button2": "Editar",
+      "categoria": "",
+      "descripcion": "",
+      "id": "18"
+    },
+    {
+      "imagen": "img/producto5.png",
+      "nombre": "ere",
+      "precio": "984",
+      "id": "OL9z4px"
+    },
+    {
+      "imagen": "img/producto2.png",
+      "nombre": "arlen",
+      "precio": "456",
+      "id": "G-gkgc-"
+    },
+    {
+      "imagen": "img/producto5.png",
+      "nombre": "rty",
+      "precio": "567",
+      "id": "E4Eud7B"
+    }
+  ]
+}

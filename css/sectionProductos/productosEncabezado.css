@@ -1,0 +1,23 @@
+.productos__encabezado {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.productos__encabezado-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.productos__encabezado-enlace {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    color: var(--background-blanco);
+    background-color: var(--fuente-enlace);
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+

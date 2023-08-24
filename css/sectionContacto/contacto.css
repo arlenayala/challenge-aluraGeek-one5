@@ -1,0 +1,43 @@
+
+
+.contacto.container {
+  background: #EAF2FD;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contacto__logo,
+.contacto__enlaces,
+.contacto__formulario {
+  flex: 1;
+  margin-right: 20px;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+  .contacto.container {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    height: 800px;
+  }
+  
+  .contacto__logo,
+  .contacto__enlaces,
+  .contacto__formulario {
+    width: 100%; 
+    margin-bottom: 5px; 
+  }
+  
+}
+
+
+

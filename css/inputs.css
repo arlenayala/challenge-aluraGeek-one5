@@ -1,0 +1,21 @@
+.contacto__formulario-inputs,
+.contacto__formulario-input--nombre.error {
+  border: 5px solid var(--boton-rojo);
+  border-radius: 7px;
+  
+  
+}
+
+/* Muestra el mensaje de error */
+.contacto__error {
+  display: none;
+  color: var(--warning-color);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  color: var(--warning-color);
+}
+
+/* Muestra el mensaje de error en el campo de entrada con la clase "error" */
+.contacto__formulario-input--nombre .contacto__error {
+  display: block;
+}

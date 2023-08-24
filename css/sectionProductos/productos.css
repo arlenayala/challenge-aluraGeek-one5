@@ -1,0 +1,37 @@
+.productos {
+    display: flex;
+    flex-direction: column;
+    background-color:var( --background-ceniza-claro) ;
+}
+
+.galeria__productos {
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  
+}
+
+@media screen and (max-width:375px) {
+
+  .galeria1__productos,
+  .galeria2__productos,
+  .galeria3__productos {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: .625rem;
+  }
+
+    .galeria1__productos-lista,
+    .galeria2__productos-lista,
+    .galeria3__productos-lista
+     {
+        flex-basis: calc(50% - 10px);
+        
+    }
+
+}
+
+
